@@ -53,12 +53,14 @@ Z powłoki:
 claude plugin install linia-statusu --marketplace R4z3l/claude-statusline
 ```
 
-W aplikacji desktopowej: + przy polu promptu, Plugins, Add marketplace z `R4z3l/claude-statusline`, potem Add plugin.
-
-Repozytorium jest prywatne: wymaga poświadczeń git do github.com (`gh auth login`, potem `gh auth setup-git`).
+W aplikacji desktopowej: + przy polu promptu, Plugins, Add marketplace z `R4z3l/claude-statusline`, potem Add plugin. Na telefonie i w sesjach w chmurze wtyczka musi być włączona na koncie; pasek nad promptem pojawia się wtedy w arkuszu „Mods".
 
 Aktualizacja: `/plugin` → marketplace `claude-statusline` → update, potem nowa sesja.
 
 ## Rozwój
 
 Testy (`tests/linia.test.tsx`) działają tylko w środowisku Claude Code: `claude plugin test .`. Walidacja: `claude plugin validate .`.
+
+## Licencja
+
+[MIT](LICENSE)
