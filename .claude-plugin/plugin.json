@@ -1,0 +1,6 @@
+{
+  "name": "linia-statusu",
+  "version": "0.1.10",
+  "description": "Dwa wiersze nad promptem: model, kontekst, katalog i gałąź git (↑/↓ do push/pull), kropka stanu kontekstu; limity 5h i tygodniowy z kropkami i resetem",
+  "types": "./types/index.d.ts"
+}
